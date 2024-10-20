@@ -8,14 +8,17 @@
 </head>
 <body>
     <h1>Quantum Squares Game</h1>
-    <canvas id="gameCanvas" width="600" height="700"></canvas>
-    <div id="menu">
-        <button id="humanButton">Play Against Human</button>
-        <button id="aiButton">Play Against AI</button>
-        <button id="quitButton">Quit</button>
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+    <div id="info">
+        <p id="score">Red: 0 | Blue: 0</p>
+        <p id="turn">Current Turn: Red</p>
     </div>
-    <p id="score">Red: 0 | Blue: 0</p>
-    <p id="turn">Current Turn: Red</p>
+    <!-- Explosion sound effect -->
+    <!-- Explosion sound effect -->
+    <audio id="explosionSound" src="sounds/explosion-sound-effect-1-241821.mp3" preload="auto"></audio>
+
+    <button id="resetBtn">Reset Game</button> <!-- Added manual reset button -->
+    
     <script src="script.js"></script>
 </body>
 </html>
